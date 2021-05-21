@@ -1,0 +1,156 @@
+#bloc_page
+{
+    margin-top: 0%;
+    margin-bottom: 5%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.nav1
+{
+    line-height: auto;
+}
+
+.nav3
+{
+    line-height: auto;
+}
+
+body
+{
+    font-family: 'Raleway', sans-serif;
+    color: black;
+}
+
+
+img
+{
+    height: 70px;
+    width: 90px;
+    display: block;
+}
+
+.logo
+{
+    list-style: none;
+    height: 40%;
+    width: 20%;
+    padding: 2px;
+}
+
+.menu ul
+{
+    list-style: none;
+    display: flex;
+    font-size: 10px;
+    justify-content: space-between;
+    align-items:flex-start;
+}
+
+
+
+.bouton
+{
+    color: white;
+    border-radius: 15px;
+    background-color: rgb(0, 107, 247);
+
+}
+.filtres-container
+{
+   display: flex; 
+   margin-top: 20px;
+}
+
+.filtres
+{
+    display: flex;
+    margin: 5px;
+    margin-top: 5px;
+}
+
+.economique
+{
+    margin: 15px;
+    border-radius: 15px;
+}
+
+.familial
+{
+    margin: 15px;
+    border-radius: 15px;
+}
+
+.romantique
+{
+    margin: 15px;
+    border-radius: 15px;
+}
+
+.animal
+{
+    margin: 15px;
+    border-radius: 15px;
+}
+
+.Mhebergement
+{
+    flex-wrap: wrap;
+    background-color: rgb(201, 201, 201);
+    height: 600px;
+    width: 800px;
+    border-radius: 15px;
+    padding-right: 2px;
+    padding-left: 2px;
+    padding-top: 2px;
+}
+
+.ainsi_que
+{
+    justify-content:flex-end;
+}
+
+.carte_lien_cartes
+{
+    margin-right: 5px;
+    margin-left: 5px;
+    justify-content: space-around;
+}
+
+.lescartes
+{
+    display: flex;
+    justify-content: center;
+}
+
+.plus_populaires 
+{
+    justify-content: flex-end;
+    margin-left: 30px;
+}
+
+.Populaire
+{
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(201, 201, 201);
+    height: 600px;
+    width: 400px;
+    border-radius: 15px;
+    padding-right: 2px;
+    padding-left: 2px;
+    padding-top: 2px;
+}
+
+.bloc_Marseille
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigation-container
+{
+    display: flex;
+    justify-content: space-between;
+}
+
