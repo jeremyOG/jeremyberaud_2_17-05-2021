@@ -5,26 +5,71 @@
     margin-left: 1%;
     margin-right: 1%;
 }
+/*en-tete*/
+
+.logo
+{
+    list-style: none;
+    height: 50px;
+    width: 70px;
+}
+
+.menu ul
+{
+    list-style: none;
+    display: flex;
+    font-size: 10px;
+    justify-content: space-around;
+}
 
 .nav1
 {
-    margin-left: 800px;  
+    margin-left: 800px; 
+    border-top: 2px solid blue;
+    color: blue; 
 }
 
-a.nav.chambre
-{
-    text-decoration: none;
-}
-a.nav.inscription
+.nav_chambre
 {
     text-decoration: none;
 }
 
+.nav_activités
+{
+    text-decoration: none;
+    color: black;
+}
+
+.nav_inscription
+{
+    text-decoration: none;
+    color: blue;
+}
+
+/*corps*/
 
 body
 {
     font-family: 'Raleway', sans-serif;
     color: black;
+}
+/*header*/
+
+.recherche
+{
+    display: inline-table;
+}
+
+.bouton
+{
+    color: white;
+    border-radius: 0px 15px 15px 0px;
+    background-color: rgb(0, 107, 247);
+}
+.filtres-container
+{
+   display: flex; 
+   margin-top: 20px;
 }
 
 .filtres
@@ -38,72 +83,57 @@ body
 {
     margin: 15px;
     border-radius: 15px;
-    border-style: ridge;
+    border-style: groove;
+    text-decoration: none;
 }
 
 .familial
 {
     margin: 15px;
-    border-style: ridge;
+    border-radius: 15px;
+    border-style: groove;
+    text-decoration: none;
 }
 
 .romantique
 {
     margin: 15px;
-    border-style: ridge;
-}
-
-.imageH
-{
-    height: 110px;
-    width: 240px;
-}
-
-{
-    height: 90px;
-    width: 70px;
-}
-
-
-.logo
-{
-    list-style: none;
-    height: 50px;
-    width: 70px;
-}
-}
-
-.menu ul
-{
-    list-style: none;
-    display: flex;
-    font-size: 10px;
-}
-
-.bouton
-{
-    color: white;
     border-radius: 15px;
-    background-color: rgb(0, 107, 247);
-
-}
-.filtres-container
-{
-   display: flex; 
-   margin-top: 20px;
+    border-style: groove;
+    text-decoration: none;
 }
 
 .animal
 {
     margin: 15px;
     border-radius: 15px;
-    border-style: ridge;
+    border-style: groove;
+    text-decoration: none;
+}
+
+.chat_description
+{
+    text-decoration: none;
+}
+
+
+/*millieu1*/
+
+.info
+{
+
+}
+
+.bloc_Marseille_Populaire
+{
+    display: flex;
+    justify-content: space-around;
 }
 
 .Mhebergement
 {
     flex-wrap: wrap;
-    background-color: rgb(201, 201, 201);
+    background-color: rgb(201,201,201);
     height: 600px;
     width: 800px;
     border-radius: 15px;
@@ -111,23 +141,16 @@ body
     padding-left: 2px;
     padding-top: 2px;
     box-shadow: 0 0 5px 4px #d7d7d7;
-	display: block;
+}
+.imageH
+{
+    height: 90px;
+    width: 250px;
 }
 
-
-.ainsi_que
+#hebergement
 {
-    margin-top: 20px;
-    margin-left: 50px;
-    margin-bottom: 20px;
-    justify-content:flex-end;
-}
-
-.carte_lien_cartes
-{
-    margin-right: 5px;
-    margin-left: 5px;
-    justify-content: space-around;
+    margin-left: 15px;
 }
 
 .lescartes
@@ -136,18 +159,48 @@ body
     justify-content: center;
 }
 
-.plus_populaires 
+.carte_lien_cartes
 {
-    justify-content: flex-end;
-    margin-left: 30px;
+    margin-right: 5px;
+    margin-left: 5px;
+    background-color: white;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.detail
+{
+    justify-content: start;
+}
+
+.ainsi_que
+{
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    justify-content:flex-end;
+}
+.afficher_plus
+{
+    display: flex;
+}
+
+h4
+{
+    padding-left: 10px;
+}
+
+.Titre_Populaire
+{
+    flex-direction: row-reverse;
 }
 
 .Populaire
 {
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: rgb(201, 201, 201);
-    height: 600px;
+    height: 536px;
     width: 425px;
     border-radius: 15px;
     padding-right: 2px;
@@ -157,16 +210,106 @@ body
 	display: block;
 }
 
-.bloc_Marseille
+.plus_populaires 
 {
-    display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: 2px;
+    margin-right: 10px;
 }
 
-.A_Marseille
+.imageP
+{
+    height: 140px;
+    width: 100px;
+}
+
+/*milieu2*/
+
+
+.Activités_Marseille
+{
+    display: flex;
+}
+
+.activite_MP
+{
+    height: 150px;
+    width: 250px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.activite_MG
+{
+    height: 350px;
+    width: 250px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.lescartes
+{
+    margin-left: 15px;
+    flex-wrap: wrap;
+}
+.titre_populaire
 {
     flex-wrap: wrap;
 }
+
+.cartes_populaire
+{
+    background-color: white;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.cartes_lien_Populaire
+{
+    margin-left: 0px;
+    display: flex;
+}
+
+.description
+{
+    margin-left: 20px;
+}
+
+.Activités_Marseille
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.blockactivity
+{
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+} 
+ 
+.cadre1
+{
+    background-color: white;
+    border-radius: 15px;
+    margin-right: 25px;
+    margin-left: 45px;
+}
+.cadre
+{
+    background-color: white;
+    border-radius: 15px; 
+}
+
+.activite_MG
+{
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+/*footer*/
 
 .navigation-container
 {
@@ -178,52 +321,26 @@ body
     border-radius: 15px;
     box-shadow: 0 0 5px 4px #d7d7d7;
 }
-.container ul
+
+footer 
+{
+    height: auto;
+}
+
+.A_propos 
+{
+    width: 100%;
+}
+
+.Nos_hebergements 
+{
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.Assistance 
 {
     display: flex;
-    justify-content: space-between;
-    list-style: none;
-}
-
-.lescartes
-{
-    flex-wrap: wrap;
-    margin-left: 20px;
-}
-
-.cartes_lien_Populaire
-{
-    margin-left: 20px;
-
-}
-
-.Activités_Marseille
-{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-h2
-{
-    margin-right: 1050px;
-}
-.block_1
-{
-    
-}
-
-.block_2
-{
-    flex-flow: column;
-}
-
-.block_3
-{
-    
-}
-
-.block_4
-{
-    flex-flow: column;
+    align-items: flex-start;
+    width: 100%;
 }
