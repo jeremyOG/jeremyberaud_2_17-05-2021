@@ -119,9 +119,12 @@ body
 
 /*millieu1*/
 
+
 .info
 {
-
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: ;
 }
 
 .bloc_Marseille_Populaire
@@ -176,7 +179,7 @@ body
 .ainsi_que
 {
     margin-top: 20px;
-    margin-left: 50px;
+    margin-right: 50px;
     margin-bottom: 20px;
     justify-content:flex-end;
 }
@@ -245,6 +248,8 @@ h4
     width: 250px;
     background-color: white;
     border-radius: 15px;
+    margin-right: 25px;
+    margin-left: 25px;
 }
 
 .lescartes
@@ -300,13 +305,27 @@ h4
 .cadre
 {
     background-color: white;
-    border-radius: 15px; 
+    border-radius: 15px;
 }
 
-.activite_MG
+.Block_MP1 h5
 {
-    margin-right: 25px;
-    margin-left: 25px;
+    margin-left: 0px;
+}
+
+.Block_MP2 h5
+{
+    margin-left: 0px;
+}
+
+.cadre1 h5
+{
+    margin-left: 40px;
+}
+
+.cadre h5
+{
+    margin-left: 40px;
 }
 
 /*footer*/
@@ -322,25 +341,24 @@ h4
     box-shadow: 0 0 5px 4px #d7d7d7;
 }
 
-footer 
+.nav-footer 
 {
-    height: auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 .A_propos 
 {
-    width: 100%;
+    flex-wrap: wrap;
 }
 
 .Nos_hebergements 
 {
-    margin-bottom: 0;
-    width: 100%;
+    flex-wrap: wrap;
 }
 
 .Assistance 
 {
-    display: flex;
-    align-items: flex-start;
-    width: 100%;
+    flex-wrap: wrap;
+    width: 35%;
 }
