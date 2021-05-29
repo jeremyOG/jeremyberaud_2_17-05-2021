@@ -1,17 +1,17 @@
-#bloc_page
-{
-    margin-top: 0%;
-    margin-bottom: 5%;
-    margin-left: 1%;
-    margin-right: 1%;
+#bloc_page {
+	width: 100%;
+	box-sizing: border-box;
+	max-width: 1250px;
+	margin: auto;
 }
+
 /*en-tete*/
 
 .logo
 {
     list-style: none;
-    height: 50px;
-    width: 70px;
+    height: 10px;
+    width: 50px;
 }
 
 .menu ul
@@ -19,12 +19,15 @@
     list-style: none;
     display: flex;
     font-size: 10px;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    margin-left: -40px;
+    margin-top: -5px;
 }
 
 .nav1
 {
-    margin-left: 800px; 
+    margin-left: 850px; 
     border-top: 2px solid blue;
     color: blue; 
 }
@@ -53,7 +56,15 @@ body
     font-family: 'Raleway', sans-serif;
     color: black;
 }
+
+
 /*header*/
+
+.fas.fa-map-marker-alt.gps::before
+{
+    border-radius: 15px 0px 0px 15px;
+    background-color:darkgray
+}
 
 .recherche
 {
@@ -111,7 +122,7 @@ body
     text-decoration: none;
 }
 
-.chat_description
+.chat-description
 {
     text-decoration: none;
 }
@@ -122,9 +133,17 @@ body
 
 .info
 {
-    flex-direction: row-reverse;
-    flex-wrap: wrap;
-    justify-content: ;
+    display: flex;
+    align-items: baseline;
+}
+
+.fas.fa-info-circle::before
+{
+    margin-right: 10px;
+    color:dodgerblue
+    border-radius: 100%;
+    background-color: white;
+
 }
 
 .bloc_Marseille_Populaire
@@ -145,6 +164,7 @@ body
     padding-top: 2px;
     box-shadow: 0 0 5px 4px #d7d7d7;
 }
+
 .imageH
 {
     height: 90px;
@@ -169,6 +189,7 @@ body
     background-color: white;
     border-radius: 15px;
     margin-bottom: 10px;
+    text-decoration: none;
 }
 
 .detail
@@ -183,19 +204,25 @@ body
     margin-bottom: 20px;
     justify-content:flex-end;
 }
-.afficher_plus
-{
-    display: flex;
-}
+
 
 h4
 {
     padding-left: 10px;
 }
 
-.Titre_Populaire
+.Populaire_titre
 {
+    display: flex;
+    align-items: baseline;
     flex-direction: row-reverse;
+    background-color: rgb(201, 201, 201);
+}
+
+.fa-chart-line:before
+{
+    margin-left: 240px;
+    margin-right: 20px;
 }
 
 .Populaire
@@ -273,6 +300,7 @@ h4
 {
     margin-left: 0px;
     display: flex;
+    text-decoration: none;
 }
 
 .description
@@ -345,6 +373,7 @@ h4
 {
     display: flex;
     justify-content: space-between;
+    text-decoration: none;
 }
 
 .A_propos 
