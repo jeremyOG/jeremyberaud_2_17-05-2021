@@ -57,13 +57,22 @@ body
     color: black;
 }
 
+i
+{
+    color: mediumblue;
+}
 
 /*header*/
 
 .fas.fa-map-marker-alt.gps::before
 {
-    border-radius: 15px 0px 0px 15px;
-    background-color:darkgray
+    border-radius: 5px 0px 0px 5px;
+    background-color: darkgray;
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    padding-left: 7px;
+    padding-right: 7px;
 }
 
 .recherche
@@ -71,11 +80,18 @@ body
     display: inline-table;
 }
 
+.search
+{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
 .bouton
 {
     color: white;
-    border-radius: 0px 15px 15px 0px;
-    background-color: rgb(0, 107, 247);
+    border-radius: 0px 5px 5px 0px;
+    background-color:blue;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 .filtres-container
 {
@@ -101,6 +117,7 @@ body
     border-radius: 15px;
     border-style: groove;
     text-decoration: none;
+    border-left: aliceblue;
 }
 
 .familial
@@ -109,6 +126,7 @@ body
     border-radius: 15px;
     border-style: groove;
     text-decoration: none;
+    border-left: aliceblue;
 }
 
 .romantique
@@ -117,6 +135,7 @@ body
     border-radius: 15px;
     border-style: groove;
     text-decoration: none;
+    border-left: aliceblue;
 }
 
 .animal
@@ -125,30 +144,47 @@ body
     border-radius: 15px;
     border-style: groove;
     text-decoration: none;
+    border-left: aliceblue;
 }
 
 .fas.fa-money-bill-wave-alt:before
 {
     border-radius: 100%;
-    margin-left: 5px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: rgb(164, 184, 236);
 }
 
 .fas.fa-child:before
 {
     border-radius: 100%;
-    margin-left: 5px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: rgb(164, 184, 236);
 }
 
 .fas.fa-heart:before
 {
     border-radius: 100%;
-    margin-left: 5px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: rgb(164, 184, 236);
 }
 
 .fas.fa-dog:before
 {
     border-radius: 100%;
-    margin-left: 5px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: rgb(164, 184, 236);
 }
 
 /*millieu1*/
@@ -163,7 +199,7 @@ body
 .fas.fa-info-circle::before
 {
     margin-right: 10px;
-    color:dodgerblue
+    color: blue;
     border-radius: 100%;
     background-color: white;
 }
@@ -221,8 +257,13 @@ body
 .details
 {
     margin-left: 10px;
+    color: black;
 }
 
+h4, h5, p
+{
+    color: black;
+}
 .etoiles
 {
     margin-left: 10px;
@@ -234,6 +275,7 @@ body
     margin-right: 50px;
     margin-bottom: 20px;
     justify-content:flex-end;
+    text-decoration: none;
 }
 
 
@@ -398,10 +440,8 @@ h4
 {
     display: flex;
     justify-content: space-between;
-    background-color: rgb(201, 201, 201);
+    background-color: rgba(236, 233, 233, 0.925);
     padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 15px;
     box-shadow: 0 0 5px 4px #d7d7d7;
 }
 
@@ -410,6 +450,7 @@ h4
     display: flex;
     justify-content: space-between;
     text-decoration: none;
+    color: black;
 }
 
 .A_propos 
