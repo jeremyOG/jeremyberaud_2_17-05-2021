@@ -337,30 +337,48 @@ h4
 
 /*milieu2*/
 
-
-.Activités_Marseille
+.activite_MP1
 {
-    display: flex;
-    justify-content: center;
+    height: 250px;
+    width: 100px;
+    background-color: white;
+    border-radius: 15px;
+    border-radius: 15px 15px 0px 0px;
 }
 
 .activite_MP
 {
-    height: 150px;
+    height: 149px;
     width: 250px;
     background-color: white;
     border-radius: 15px;
     border-radius: 15px 15px 0px 0px;
-
 }
 
 .activite_MG
 {
-    height: 350px;
+    height: 360px;
     width: 250px;
-    background-color: white;
     margin-right: 25;
     margin-left: 25;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.activite_MP1
+{
+    height: 200px;
+    width: 250px;
+    background-color: white;
+    border-radius: 15px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.activite_MP2
+{
+    height: 97px;
+    width: 250px;
+    background-color: white;
+    border-radius: 15px;
     border-radius: 15px 15px 0px 0px;
 }
 
@@ -396,9 +414,9 @@ h4
 
 .blockactivity
 {
-    background-color: white;
-    border-radius: 15px;
     display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
 } 
  
 .cadre1
@@ -410,8 +428,9 @@ h4
 }
 .cadre
 {
-    background-color: blanchedalmond;
+    background-color: white;
     border-radius: 15px;
+    box-shadow:cornsilk;
 }
 
 .Block_MP1 h5
