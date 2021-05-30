@@ -87,7 +87,12 @@ body
 {
     display: flex;
     margin: 5px;
-    margin-top: 5px;
+}
+
+.filtre_titre
+{
+    margin-left: 3px;
+    margin-right: 5px;
 }
 
 .economique
@@ -122,11 +127,29 @@ body
     text-decoration: none;
 }
 
-.chat-description
+.fas.fa-money-bill-wave-alt:before
 {
-    text-decoration: none;
+    border-radius: 100%;
+    margin-left: 5px;
 }
 
+.fas.fa-child:before
+{
+    border-radius: 100%;
+    margin-left: 5px;
+}
+
+.fas.fa-heart:before
+{
+    border-radius: 100%;
+    margin-left: 5px;
+}
+
+.fas.fa-dog:before
+{
+    border-radius: 100%;
+    margin-left: 5px;
+}
 
 /*millieu1*/
 
@@ -143,8 +166,9 @@ body
     color:dodgerblue
     border-radius: 100%;
     background-color: white;
-
 }
+
+
 
 .bloc_Marseille_Populaire
 {
@@ -168,7 +192,9 @@ body
 .imageH
 {
     height: 90px;
-    width: 250px;
+    width: 230px;
+    border-radius: 15px 15px 0px 0px;
+    margin: 3px;
 }
 
 #hebergement
@@ -192,9 +218,14 @@ body
     text-decoration: none;
 }
 
-.detail
+.details
 {
-    justify-content: start;
+    margin-left: 10px;
+}
+
+.etoiles
+{
+    margin-left: 10px;
 }
 
 .ainsi_que
@@ -221,8 +252,8 @@ h4
 
 .fa-chart-line:before
 {
-    margin-left: 240px;
-    margin-right: 20px;
+    margin-left: 180px;
+    margin-right: 30px;
 }
 
 .Populaire
@@ -230,7 +261,7 @@ h4
     justify-content: space-between;
     align-items: center;
     background-color: rgb(201, 201, 201);
-    height: 536px;
+    height: 600px;
     width: 425px;
     border-radius: 15px;
     padding-right: 2px;
@@ -243,14 +274,23 @@ h4
 .plus_populaires 
 {
     flex-wrap: wrap;
-    margin-left: 2px;
+    margin-left: 20px;
     margin-right: 10px;
+    border-radius: 15px;
 }
 
 .imageP
 {
     height: 140px;
     width: 100px;
+    border-radius: 15px 0px 0px 15px;
+    margin: 3px;
+}
+
+.afficher_plus
+{
+    flex: auto;
+    margin-left: 30px;
 }
 
 /*milieu2*/
@@ -259,6 +299,7 @@ h4
 .Activités_Marseille
 {
     display: flex;
+    justify-content: center;
 }
 
 .activite_MP
@@ -267,6 +308,8 @@ h4
     width: 250px;
     background-color: white;
     border-radius: 15px;
+    border-radius: 15px 15px 0px 0px;
+
 }
 
 .activite_MG
@@ -274,9 +317,9 @@ h4
     height: 350px;
     width: 250px;
     background-color: white;
-    border-radius: 15px;
-    margin-right: 25px;
-    margin-left: 25px;
+    margin-right: 25;
+    margin-left: 25;
+    border-radius: 15px 15px 0px 0px;
 }
 
 .lescartes
@@ -301,20 +344,13 @@ h4
     margin-left: 0px;
     display: flex;
     text-decoration: none;
+    border-radius: 15px, 0px, 0px, 15px;
 }
 
 .description
 {
     margin-left: 20px;
 }
-
-.Activités_Marseille
-{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
 
 .blockactivity
 {
@@ -332,7 +368,7 @@ h4
 }
 .cadre
 {
-    background-color: white;
+    background-color: blanchedalmond;
     border-radius: 15px;
 }
 
