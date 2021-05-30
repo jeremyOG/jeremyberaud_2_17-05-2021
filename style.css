@@ -54,7 +54,6 @@
 body
 {
     font-family: 'Raleway', sans-serif;
-    color: black;
 }
 
 i
@@ -348,7 +347,7 @@ h4
 
 .activite_MP
 {
-    height: 149px;
+    height: 150px;
     width: 250px;
     background-color: white;
     border-radius: 15px;
@@ -357,7 +356,7 @@ h4
 
 .activite_MG
 {
-    height: 360px;
+    height: 350px;
     width: 250px;
     margin-right: 25;
     margin-left: 25;
@@ -375,7 +374,7 @@ h4
 
 .activite_MP2
 {
-    height: 97px;
+    height: 90px;
     width: 250px;
     background-color: white;
     border-radius: 15px;
@@ -416,7 +415,7 @@ h4
 {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 20px;
+    padding-bottom: 50px;
 } 
  
 .cadre1
@@ -430,7 +429,7 @@ h4
 {
     background-color: white;
     border-radius: 15px;
-    box-shadow:cornsilk;
+    box-shadow: 0 0 5px 4px #d7d7d7;
 }
 
 .Block_MP1 h5
