@@ -32,7 +32,7 @@
 }
 .nav1
 {
-    margin-left: 70%; 
+    margin-left: 75%; 
     margin-right: 20px;
     border-top: 2px solid #0065FC;
     color: #0065FC; 
@@ -116,7 +116,7 @@ i
 .bouton
 {
     color: white;
-    border-radius: 0px 5px 5px 0px;
+    border-radius: 0px 10px 10px 0px;
     background-color:#0065FC;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -263,7 +263,7 @@ i
     flex-wrap: wrap;
     background-color: #F2F2F2;
     height: 600px;
-    width: 300%;
+    width: 70%;
     border-radius: 15px;
     padding-right: 2px;
     padding-left: 2px;
@@ -275,8 +275,8 @@ i
 
 .imageH
 {
-    height: 90px;
-    width: 230px;
+    height: 120px;
+    width: 97%;
     border-radius: 15px 15px 0px 0px;
     margin: 3px;
 }
@@ -301,6 +301,7 @@ i
     border-radius: 15px;
     margin-bottom: 25px;
     text-decoration: none;
+    width: 30%;
 }
 
 .details
@@ -329,22 +330,27 @@ h4, h5, p
 
 h4
 {
-    padding-left: 10px;
+    padding-left: 5%;
 }
 
 .Populaire_titre
 {
-    display: flex;
     align-items: baseline;
     flex-direction: row-reverse;
     background-color: #F2F2F2;
     border-radius: 15px 15px 0px 0px;
 }
 
+.titre_populaire
+{
+    margin-right: 10%;
+}
+
 .fa-chart-line:before
 {
-    margin-left: 180px;
-    margin-right: 30px;
+    margin-left: 150px;
+    align-items: flex-start;
+    color: black;
 }
 
 .Populaire
@@ -352,8 +358,6 @@ h4
     justify-content: space-between;
     align-items: center;
     background-color: #F2F2F2;
-    height: 600px;
-    width: 400px;
     border-radius: 15px;
     padding-right: 2px;
     padding-left: 2px;
@@ -371,6 +375,8 @@ h4
     background-color: #F2F2F2;
     border-radius: 15px;
     box-shadow: 0 0 5px 4px #d7d7d7;
+    height: 604px;
+    width: 30%;
 }
 
 .imageP
@@ -385,8 +391,8 @@ h4
 .afficher_plus
 {
     flex: auto;
-    margin-left: 30px;
-    margin-top: -15px;
+    margin-left: 50px;
+    margin-bottom: 10px;
 }
 
 /*block activité*/
@@ -478,6 +484,7 @@ h4
 {
     margin-left: 15px;
     margin-bottom: 2px;
+    padding-bottom: 10px;
 }
  
 .cadre1
@@ -495,7 +502,7 @@ h4
     margin-bottom: auto;
     border-radius: 15px;
     box-shadow: 0 0 5px 4px #d7d7d7;
-    margin-top: 32px;
+    margin-top: 24px;
 }
 
 .cadre3
@@ -511,10 +518,16 @@ h4
 {
     background-color: white;
     border-radius: 15px;
-    margin-top: 32px;
     box-shadow: 0 0 5px 4px #d7d7d7;
 }
 
+.cadre5
+{
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 24px;
+    box-shadow: 0 0 5px 4px #d7d7d7;
+}
 
 .cadre1 h5
 {
