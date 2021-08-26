@@ -15,6 +15,11 @@
     width: 50px;
 }
 
+img
+{
+    object-fit: cover;
+}
+
 .menu ul
 {
     list-style: none;
@@ -57,6 +62,7 @@
 a:hover
 {
     color: #0065FC;
+    titre
 }
 
 .nav_chambre
@@ -131,19 +137,21 @@ i
 {
     display: flex;
     margin: 5px;
+    color: #d7d7d7;
 }
 
 .filtre_titre
 {
     margin-left: 3px;
     margin-right: 5px;
+    color: black;
 }
 
 .economique
 {
     margin: 15px;
     border-radius: 15px;
-    border-style: groove;
+    border-style: solid;
     text-decoration: none;
     border-left: #DEEBFF;
 }
@@ -152,7 +160,7 @@ i
 {
     margin: 15px;
     border-radius: 15px;
-    border-style: groove;
+    border-style: solid;
     text-decoration: none;
     border-left: #DEEBFF;
 }
@@ -161,7 +169,7 @@ i
 {
     margin: 15px;
     border-radius: 15px;
-    border-style: groove;
+    border-style: solid;
     text-decoration: none;
     border-left: #DEEBFF;
 }
@@ -170,7 +178,7 @@ i
 {
     margin: 15px;
     border-radius: 15px;
-    border-style: groove;
+    border-style: solid;
     text-decoration: none;
     border-left: #DEEBFF;
 }
@@ -244,10 +252,10 @@ i
     font-size: 12px;
 }
 
-.far.fa-star::before
+.fas.fa-star.gray
 {
     font-size: 12px;
-    color: darkgrey;
+    color: #d7d7d7;
 }
 
 /*block hebergement*/
@@ -268,7 +276,6 @@ i
     padding-right: 2px;
     padding-left: 2px;
     padding-top: 2px;
-    box-shadow: 0 0 5px 4px #d7d7d7;
     margin-bottom: 10px;
     margin-left: 10px;
 }
@@ -279,6 +286,7 @@ i
     width: 97%;
     border-radius: 15px 15px 0px 0px;
     margin: 3px;
+    object-fit: cover;
 }
 
 #hebergement
@@ -362,7 +370,6 @@ h4
     padding-right: 2px;
     padding-left: 2px;
     padding-top: 2px;
-    box-shadow: 0 0 5px 4px #d7d7d7;
 	display: block;
 }
 
@@ -374,7 +381,6 @@ h4
     border-radius: 15px;
     background-color: #F2F2F2;
     border-radius: 15px;
-    box-shadow: 0 0 5px 4px #d7d7d7;
     height: 604px;
     width: 30%;
 }
@@ -420,7 +426,6 @@ h4
     height: 383px;
     width: 270px;
     border-radius: 15px 15px 0px 0px;
-    box-shadow: 0 0 5px 4px #d7d7d7;
 }
 
 .activite_MP1
@@ -501,8 +506,8 @@ h4
     border-radius: 15px;
     margin-bottom: auto;
     border-radius: 15px;
-    box-shadow: 0 0 5px 4px #d7d7d7;
     margin-top: 24px;
+    box-shadow: 0 0 5px 4px #d7d7d7;
 }
 
 .cadre3
@@ -542,6 +547,7 @@ h4
 .cadre h5
 {
     margin-left: 40px;
+    text-decoration: none;
 }
 
 /*footer*/
@@ -586,7 +592,80 @@ h4
 /*Responsive Design: Tablette*/
 @media only screen and (max-width:1024px)
 {
+    h1, #Populaire_titre, #hebergement, #AM_Title
+    {
+    font-size: 1.3em;
+    font-weight: bold;
+    }
+
+    p, ul, nav-footer
+    {
+    font-size: 0.9em;
+    }
+
+    .footer
+    {
+    display: flex;
+    flex-direction : row;
+    }
+
+}
+
+@media screen and (max-width : 1179px)
+{
+    .cartes_populaire
+    {
+        position : relative;
+        border-radius: 10px 10px 0px 0px;
+        width: 250px;
+        height: 90px;
+        margin : 15px 10px 70px 10px;
+        padding: 50px 20px 20px 20px;    
+    }
     
+    .image
+    {
+        border-radius: 10px 10px 0px 0px; 
+        box-shadow: 2px 2px 2px grey; 
+        border: solid 5px white;
+        width : 260px;
+        height : 140px;
+        position : relative;
+        right: 20px;
+        bottom : 50px;
+    }
+    
+    .description
+    {   
+        position : absolute;
+        background: white;
+        border-radius: 0px 0px 10px 10px;
+        border: solid 5px white;
+        box-shadow: 2px 2px 2px gray;
+        width: 250px;
+        height: 60px;
+        padding : 5px;
+        top : 130px;
+        left : 0px;
+        line-height: 1.3em;
+    }
+
+    #afficher_plus
+    {
+    padding : 30Px 20px 20px 20px;
+    }
+
+    .footer
+    {
+    display: flex;
+    flex-direction : row;
+    }
+
+    footer h3
+    {
+    padding-right: 50px;
+    }
+}
 }
 
 /*iphone*/
