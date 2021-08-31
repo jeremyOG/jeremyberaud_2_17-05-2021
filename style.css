@@ -62,7 +62,6 @@ img
 a:hover
 {
     color: #0065FC;
-    titre
 }
 
 .nav_chambre
@@ -485,6 +484,11 @@ h4
     margin: 5px;
 }
 
+.blockactivity a
+{
+    text-decoration: none;
+}
+
 .blockactivity h5
 {
     margin-left: 15px;
@@ -588,86 +592,80 @@ h4
 }
 
 /*media queries*/
-
+@media only screen and (max-width:1024px) and (min-width:1122px)
+    
+{
 /*Responsive Design: Tablette*/
-@media only screen and (max-width:1024px)
+
+.menu ul
 {
-    h1, #Populaire_titre, #hebergement, #AM_Title
-    {
-    font-size: 1.3em;
-    font-weight: bold;
-    }
-
-    p, ul, nav-footer
-    {
-    font-size: 0.9em;
-    }
-
-    .footer
-    {
+    list-style: none;
     display: flex;
-    flex-direction : row;
-    }
-
+    font-size: 10px;
+    margin-bottom: 80px;
+    margin-left: -40px;
+    margin-top: 2px;
 }
 
-@media screen and (max-width : 1179px)
+.filtres
 {
-    .cartes_populaire
-    {
-        position : relative;
-        border-radius: 10px 10px 0px 0px;
-        width: 250px;
-        height: 90px;
-        margin : 15px 10px 70px 10px;
-        padding: 50px 20px 20px 20px;    
-    }
-    
-    .image
-    {
-        border-radius: 10px 10px 0px 0px; 
-        box-shadow: 2px 2px 2px grey; 
-        border: solid 5px white;
-        width : 260px;
-        height : 140px;
-        position : relative;
-        right: 20px;
-        bottom : 50px;
-    }
-    
-    .description
-    {   
-        position : absolute;
-        background: white;
-        border-radius: 0px 0px 10px 10px;
-        border: solid 5px white;
-        box-shadow: 2px 2px 2px gray;
-        width: 250px;
-        height: 60px;
-        padding : 5px;
-        top : 130px;
-        left : 0px;
-        line-height: 1.3em;
-    }
-
-    #afficher_plus
-    {
-    padding : 30Px 20px 20px 20px;
-    }
-
-    .footer
-    {
     display: flex;
-    flex-direction : row;
-    }
-
-    footer h3
-    {
-    padding-right: 50px;
-    }
-}
+    margin: 5px;
+    color: #d7d7d7;
+    font-size: small;
 }
 
+.bloc_Marseille_Populaire
+{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+}
+
+.Mhebergement
+{
+    flex-wrap: wrap;
+    background-color: #F2F2F2;
+    width: 100%;
+    border-radius: 15px;
+    padding-right: 2px;
+    padding-left: 2px;
+    padding-top: 2px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.Plus_populaires 
+{
+    flex-wrap: wrap;
+    margin:auto;
+    border-radius: 15px;
+    background-color: #F2F2F2;
+    border-radius: 15px;
+    height: 604px;
+    width: 90%;
+}
+
+.blockactivity
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+    flex-wrap: wrap;
+}
+
+.navigation-container
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(236, 233, 233, 0.925);
+    padding-left: 20px;
+    box-shadow: 0 0 5px 4px #d7d7d7;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+}
 /*iphone*/
 
 @media only screen and (max-width:450px) and (min-width:375px)
