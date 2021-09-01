@@ -126,6 +126,12 @@ i
     padding-top: 5px;
     padding-bottom: 5px;
 }
+
+.fas.fa-search
+{
+    text-decoration: none;
+}
+
 .filtres-container
 {
    display: flex; 
@@ -668,7 +674,126 @@ h4
 }
 /*iphone*/
 
-@media only screen and (max-width:450px) and (min-width:375px)
+@media only screen and (max-width:375px)
 {
+
+    .filtres
+    {
+        flex-wrap: wrap;
+        margin: 5px;
+        color: #d7d7d7;
+        font-size: small;
+    }
+
+    .menu ul
+{
+    list-style: none;
+    display: flex;
+    font-size: 10px;
+    margin-bottom: 80px;
+    margin-left: -40px;
+    margin-top: 2px;
+}
+
+.search
+{
+    text-decoration: none;
+}
+
+.fas.fa-search
+{
+    
+}
+
+
+.bloc_Marseille_Populaire
+{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+}
+
+.Mhebergement
+{
+    flex-wrap: wrap;
+    background-color: #F2F2F2;
+    width: 100%;
+    border-radius: 15px;
+    padding-right: 2px;
+    padding-left: 2px;
+    padding-top: 2px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.Plus_populaires 
+{
+    flex-wrap: wrap;
+    margin:auto;
+    border-radius: 15px;
+    background-color: #F2F2F2;
+    border-radius: 15px;
+    height: 604px;
+    width: 90%;
+}
+
+.blockactivity
+{
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 5px;
+}
+
+    .Plus_populaires 
+{
+    flex-wrap: wrap;
+    margin:auto;
+    border-radius: 15px;
+    background-color: #F2F2F2;
+    border-radius: 15px;
+    height: 604px;
+    width: 100%;
+}
+
+.carte_lien_cartes
+{
+    margin-right: 12px;
+    margin-left: 12px;
+    background-color: white;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    text-decoration: none;
+    width: 92%;
+}
+
+.activite_MG
+{
+    height: 100px;
+    width: 90%;
+    object-fit: cover;
+    background-color: white;
+    border-radius: 15px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.activite_MP
+{
+    height: 100px;
+    width: 90%;
+    object-fit: cover;
+    background-color: white;
+    border-radius: 15px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.navigation-container
+{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgba(236, 233, 233, 0.925);
+    padding-left: 20px;
+    box-shadow: 0 0 5px 4px #d7d7d7;
+    margin-top: 50px;
+}
 
 }
