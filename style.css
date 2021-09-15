@@ -35,6 +35,7 @@ img
     justify-content: flex-end;
     align-items: flex-end;
 }
+
 .nav1
 {
     margin-left: 75%; 
@@ -127,9 +128,9 @@ i
     padding-bottom: 5px;
 }
 
-.fas.fa-search
+.fa-search
 {
-    text-decoration: none;
+    display: none;
 }
 
 .filtres-container
@@ -675,7 +676,17 @@ h4
 /*iphone*/
 
 @media only screen and (max-width:375px)
+
 {
+    .titre2
+    {
+        font-size: small;
+    }
+
+    .nav1
+    {
+        margin-left: 50%; 
+    }
 
     .filtres
     {
@@ -688,21 +699,39 @@ h4
     .menu ul
 {
     list-style: none;
-    display: flex;
     font-size: 10px;
     margin-bottom: 80px;
     margin-left: -40px;
     margin-top: 2px;
+    width: 100%;
 }
 
-.search
+.li.nav3
 {
-    text-decoration: none;
+    order: 1;
+	width: 50%;
 }
 
-.fas.fa-search
+.li.nav2
 {
-    
+    order: 2;
+    width: 50%;
+}
+
+.li.nav3
+{
+    order: 3;
+    width: 50%;
+}
+
+.bouton
+{
+    display: none;
+}
+
+.fa-search
+{
+    display: initial;
 }
 
 
@@ -715,15 +744,9 @@ h4
 
 .Mhebergement
 {
-    flex-wrap: wrap;
-    background-color: #F2F2F2;
+    height: auto;
     width: 100%;
-    border-radius: 15px;
-    padding-right: 2px;
-    padding-left: 2px;
-    padding-top: 2px;
-    margin-bottom: 10px;
-    margin-left: 10px;
+    background-color: white;
 }
 
 .Plus_populaires 
@@ -743,6 +766,7 @@ h4
     justify-content: space-around;
     margin: 5px;
 }
+
 
     .Plus_populaires 
 {
@@ -769,31 +793,40 @@ h4
 .activite_MG
 {
     height: 100px;
-    width: 90%;
+    width: 100%;
     object-fit: cover;
-    background-color: white;
-    border-radius: 15px;
-    border-radius: 15px 15px 0px 0px;
 }
 
-.activite_MP
+.activite_MP, .activite_MG, .activite_MP1, .activite_MP2
 {
     height: 100px;
-    width: 90%;
+    width: 100%;
     object-fit: cover;
-    background-color: white;
-    border-radius: 15px;
-    border-radius: 15px 15px 0px 0px;
+}
+
+.Block_MP1, .Block_MP2
+{
+    width: 90%;
+}
+.cadre1, .cadre2, .cadre3
+{
+    margin-bottom: 20px;
+}
+
+.blockactivity a
+{
+    width: 95%;
 }
 
 .navigation-container
 {
-    flex-wrap: wrap;
-    justify-content: space-between;
-    background-color: rgba(236, 233, 233, 0.925);
-    padding-left: 20px;
-    box-shadow: 0 0 5px 4px #d7d7d7;
-    margin-top: 50px;
+    flex-wrap: wrap;  
+    wi
+}
+
+.A_propos, .Nos_hébergements, .Assistance
+{
+    width: 100%;
 }
 
 }
